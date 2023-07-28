@@ -40,7 +40,7 @@ services:
       - mysqldb
 
   mysqldb:
-    image: mysql:8
+    image: mysql:latest
     networks:
       - organization-mysql
     environment:
